@@ -1,0 +1,12 @@
+[project]
+name = "agent-xp"
+version = "0.1.0"
+description = "Hands-on practice with core Agent design patterns (ReAct, Plan&Execute, Reflection)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "colorama>=0.4.6",
+    "dotenv>=0.9.9",
+    "openai>=2.32.0",
+    "tiktoken>=0.12.0",
+]
